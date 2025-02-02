@@ -15,23 +15,30 @@
 </head>
 
 <body>
-    <div id="main-box">
-        <h1>Generate a <br> <span>random password</span></h1>
+
+    <div id="main-box" >
+        <div class="btn-theme-box">
+            <button id="btnLight-el" class="btn-theme" onclick="day()">🌞</button>
+            <button id="btnDark-el" class="btn-theme" onclick="night()">🌜</button>
+        </div>
+        <h1 id="h1">Generate a <br> <span>random password</span></h1>
         <p class="p1">Never use an insecure password again.</p>
         <div class="btn-box">
             <button class="btn" onclick="generatePass()">Generate passwords</button>
+            <button id="add-el" class="btn" onclick="add()">Add Nums & Symbols</button>
         </div>
         <div class="underline"></div>
         <div class="password-box ">
             <div class="pass-box-p">
-                <p id="pass1-el" class="pass-box">test pass 1</p>
+                <p id="pass1-el" class="pass-box"></p>
             </div>
             <div class="pass-box-p">
-                <p id="pass2-el" class="pass-box "> test pass 2</p>
+                <p id="pass2-el" class="pass-box "></p>
             </div>
         </div>
-    </div>
+        <footer>&copy created by Auris 2025</footer>
 
+    </div>
 
 
     <script src="./index.js"></script>

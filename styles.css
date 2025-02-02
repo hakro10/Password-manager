@@ -7,13 +7,15 @@ body {
 
 
 #main-box {
-    padding-top: 115px;
+    padding-top: 15px;
     width: 550px;
     height: 550px;
     margin-left: auto;
     margin-right: auto;
     background-color: #1F2937;
     display: flexbox;
+    border-radius: 10px;
+    box-shadow: "0 0 10px 10px #6B7280"
 
 
 }
@@ -22,6 +24,34 @@ body {
     border: 1px solid red;
 }
 
+/* theme buttons */
+
+.btn-theme-box {
+    margin: 15px auto 40px;
+    text-align: right;
+    height: 40px;
+
+}
+
+.btn-theme {
+    background-color: #1F2937;
+    color: #D5D4D8;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#btnLight-el {
+    background-color: #ECFDF5;
+}
 
 /* heding content  */
 
@@ -62,9 +92,14 @@ span {
 /* button  */
 
 .btn-box {
+    width: 446px;
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     margin-top: 50px;
+    margin: 50px auto 40px;
+    /* text-align: left; */
+
+
 }
 
 .btn {
@@ -78,8 +113,8 @@ span {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: left;
-    margin-left: 52px;
+    text-align: center;
+    /* margin-left: 52px; */
 
 
 }
@@ -91,7 +126,7 @@ span {
     color: #2F3E53;
     border-bottom: 1px solid #2F3E53;
     margin-left: 52px;
-    margin-top: 40px;
+    
 
 }
 
@@ -100,10 +135,10 @@ span {
 .password-box{
     width: 448px;
     height: 39px;
-    margin-left: 52px;
-    margin-top: 35px;
+    margin: 35px auto 0px;
     display: flex;
     justify-content: space-between;
+
     
 
 }
@@ -127,42 +162,14 @@ span {
     color: #55F991;
     margin-top: 3px;
     margin-left: 15px;
+    margin: 2px auto 2px;
 }
 
-/* 
-.password-box {
-  
-    border: 0px;
-
-}
-
-
-
-.pass-box {
-    width: 211px;
-    height: 39px;
-    background-color: #273549;
-    border-radius: 6px;
-    line-height: 32px;
+footer {
+    color: #D5D4D8;
     font-family: 'inter', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
-    color: #55F991;
-     */
-
-
-/* 
-#pass1-box {
-    margin-right: 24px;
-    margin-left: 0px;
-    width: 180px;
-    height: 32px;
-    line-height: 32px; 
 }
-#pass2-box {
-    margin-left: 12px;
-    margin-right: 0px ;
-    width: 180px;
-    height: 32px;
-}   */
-
