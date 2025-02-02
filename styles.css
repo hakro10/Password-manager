@@ -1,0 +1,168 @@
+
+body {
+    text-align: center;
+    margin: 100px;
+    background-color: #1C1C1C;
+}
+
+
+#main-box {
+    padding-top: 115px;
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1F2937;
+    display: flexbox;
+
+
+}
+
+.box {
+    border: 1px solid red;
+}
+
+
+/* heding content  */
+
+h1 {
+    width: 354px;
+    height: 80px;
+    color: white;
+    font-weight: extra-bold;
+    /* letter-spacing: 2.5; */
+    text-align: left;
+    font-family: "Karla", serif;
+    line-height: 40px;
+    margin-left: 52px;
+    /* margin-top: 115px; */
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+span {
+    color: #4ADF86;
+}
+
+.p1 {
+    color: #D5D4D8;
+    margin-left: 52px;
+    margin-top: 10px;
+    text-align: left;
+    width: 372px;
+    height: 28px;
+    line-height: 28px;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: regular;
+
+}
+
+/* button  */
+
+.btn-box {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #10B981;
+    color: white;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 52px;
+
+
+}
+
+/* underline */
+
+.underline {
+    width: 446px;
+    color: #2F3E53;
+    border-bottom: 1px solid #2F3E53;
+    margin-left: 52px;
+    margin-top: 40px;
+
+}
+
+/* password box */
+
+.password-box{
+    width: 448px;
+    height: 39px;
+    margin-left: 52px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.pass-box-p {
+    width: 211px;
+    height: 39px;
+
+    background-color: #273549;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.pass-box {
+    width: 180px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    text-align: center;
+    color: #55F991;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+/* 
+.password-box {
+  
+    border: 0px;
+
+}
+
+
+
+.pass-box {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    line-height: 32px;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #55F991;
+     */
+
+
+/* 
+#pass1-box {
+    margin-right: 24px;
+    margin-left: 0px;
+    width: 180px;
+    height: 32px;
+    line-height: 32px; 
+}
+#pass2-box {
+    margin-left: 12px;
+    margin-right: 0px ;
+    width: 180px;
+    height: 32px;
+}   */
+
