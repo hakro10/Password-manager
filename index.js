@@ -13,17 +13,27 @@ const symbols = [
     "_","-","+","=","}","]",",","|",":",";","<",">",".","?","/"
 ];
 
-// let password1El = document.getElementById('pass1-el')
+let useCharsIsChecked = true;
+
+let password1El = document.getElementById('pass1-el')
 // let password2El = document.getElementById('pass2-el')
 
-let mainBoxEl = document.getElementById('main-box')
+// let mainBoxEl = document.getElementById('main-box')
 
-console.log(mainBoxEl)
+
 
 function generatePass() {
-    let randChar = Math.floor(Math.random() * characters.length);
-    let randNumb = Math.floor(Math.random() * numbers.length);
-    let randSymb = Math.floor(Math.random() * symbols.length);
+    let passwd = '';    
+    for (let i = 0; i < 15; i++) {
+        let randChar = Math.floor(Math.random() * characters.length);
+        let randNumb = Math.floor(Math.random() * numbers.length);
+        let randSymb = Math.floor(Math.random() * symbols.length);
+
+        if (useCharsIsChecked) {
+            passwd += characters[randChar]
+        }
+        password1El.textContent = passwd
+    }
     
-    console.log(randChar, randNumb, randSymb)
+    // console.log(randChar, randNumb)
 }
